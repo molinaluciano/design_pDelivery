@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis compras</title>
+    <!-- ESTILOS NECESARIOS PARA EL DISEÑO (sacado de plantilla bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- FLECHAS Y ICONOS NECESARIOS PARA EL DISEÑO (sacado de plantilla bootstrap) -->
+    <link rel="icon" type="image/x-icon" href="img/logo_duoc.png" />
+    <script data-search-pseudo-elements defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+
+    <div id="layoutDefault">
+        <!-- CONTENT -->
+        <div id="layoutDefault_content">
+            <main>
+                <nav class="navbar navbar-marketing navbar-expand-lg navbar-light" style="background-color:001B37 ;">
+                    <div class="container">
+                        <img class="img-fluid" src="img/logo-duoc-uc-universidad-catolica.jpg" alt="">
+
+                        <a class="navbar-brand text-dark" href="index.html">Sitio Delivery</a><button
+                            class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mr-lg-5">
+                                <!-- INCIO -->
+                                <li class="nav-item"><a class="nav-link" href="index.html">Inicio </a>
+                                </li>
+                                <!-- ITEM OFERTAS -->
+                                <li class="nav-item dropdown dropdown-xl no-caret">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ofertas<i
+                                            class="fas fa-chevron-right dropdown-arrow"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-right animated--fade-in-up mr-lg-n15"
+                                        aria-labelledby="navbarDropdownDemos">
+                                        <div class="row no-gutters">
+                                            <!-- ZONA IZQUIERDA (COVER) -->
+                                            <div class="col-lg-5 p-lg-3 bg-img-cover overlay overlay-primary overlay-70 d-none d-lg-block"
+                                                style='background-image: url("https://source.unsplash.com/mqO0Rf-PUMs/500x350")'>
+                                                <div
+                                                    class="d-flex h-100 w-100 align-items-center justify-content-center">
+                                                    <div class="text-white text-center z-1">
+                                                        <div class="mb-3">Multipurpose landing pages for a variety
+                                                            of
+                                                            projects.</div>
+                                                        <a class="btn btn-white btn-sm text-primary rounded-pill"
+                                                            href="index.html">Todas las ofertas</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- SECCIONES -->
+                                            <div class="col-lg-7 p-lg-5">
+                                                <div class="row">
+                                                    <!-- COLUMNA IZQUIERDA -->
+                                                    <div class="col-lg-6">
+                                                        <h6 class="dropdown-header text-primary">Puntos</h6>
+                                                        <a class="dropdown-item" href="productos.html">Doggis</a><a
+                                                            class="dropdown-item" href="productos.html">Bistro</a>
+                                                        <div class="dropdown-divider border-0"></div>
+
+                                                    </div>
+                                                    <!-- COLUMNA DERECHA -->
+                                                    <div class="col-lg-6">
+                                                        <h6 class="dropdown-header text-primary">packs</h6>
+                                                        <a class="dropdown-item" href="landing-resume.html">Junaeb</a><a
+                                                            class="dropdown-item" href="landing-portfolio.html">pack
+                                                            especial</a>
+                                                        <div class="dropdown-divider border-0"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- AYUDA -->
+                                <li class="nav-item dropdown no-caret">
+                                    <!-- TITULO EN NAV -->
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="#" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda<i
+                                            class="fas fa-chevron-right dropdown-arrow"></i></a>
+                                    <!-- SECCIONES DE AYUDA -->
+                                    <div class="dropdown-menu dropdown-menu-right animated--fade-in-up"
+                                        aria-labelledby="navbarDropdownDocs">
+                                        <!-- AYUDA 1 -->
+                                        <a class="dropdown-item py-3"
+                                            href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart"
+                                            target="_blank">
+                                            <div class="icon-stack bg-primary-soft text-primary mr-4"><i
+                                                    class="fas fa-book-open"></i></div>
+                                            <div>
+                                                <div class="small text-gray-500">Como comprar?</div>
+                                                Para comprar necesita estar registrado en el sistema.
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider m-0"></div>
+                                        <!-- AYUDA 2 -->
+                                        <a class="dropdown-item py-3"
+                                            href="https://docs.startbootstrap.com/sb-ui-kit-pro/components"
+                                            target="_blank">
+                                            <div class="icon-stack bg-primary-soft text-primary mr-4"><i
+                                                    class="fas fa-code"></i></div>
+                                            <div>
+                                                <div class="small text-gray-500">Como es el pago?</div>
+                                                El pago se realiza una vez el producto este en tus manos.
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-divider m-0"></div>
+                                        <!-- AYUDA 3 -->
+                                        <a class="dropdown-item py-3"
+                                            href="https://docs.startbootstrap.com/sb-ui-kit-pro/changelog"
+                                            target="_blank">
+                                            <div class="icon-stack bg-primary-soft text-primary mr-4"><i
+                                                    class="fas fa-file"></i></div>
+                                            <div>
+                                                <div class="small text-gray-500">Opciones de retiro</div>
+                                                Puede retirar los productos en tienda o seleccionar delivery a su
+                                                ubicacion dentro de la institución
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <!-- USUARIO -->
+                                <li class="nav-item dropdown no-caret  dropdown-user">
+                                    <a class="btn btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage"
+                                        href="" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false"><img class="fa fa-user" /></a>
+                                    <div class="dropdown-menu dropdown-menu-right border-0 shadow animated--fade-in-up"
+                                        aria-labelledby="navbarDropdownUserImage">
+                                        <!-- Datos usuario -->
+                                        <h6 class="dropdown-header d-flex align-items-center">
+                                            <img class="dropdown-user-img"
+                                                src="https://source.unsplash.com/QAB-WJcbgJk/60x60" />
+                                            <div class="dropdown-user-details">
+                                                <div class="dropdown-user-details-name">Valerie Luna</div>
+                                                <div class="dropdown-user-details-email">vluna@aol.com</div>
+                                            </div>
+                                        </h6>
+                                        <div class="dropdown-divider"></div>
+                                        <!-- Cuenta -->
+                                        <a class="dropdown-item" href="#!">
+                                            <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
+                                            Cuenta
+                                        </a>
+                                        <!-- Pedido -->
+                                        <a class="dropdown-item" href="estado.html">
+                                            <div class="dropdown-item-icon"><i data-feather="file"></i></div>
+                                            Pedidos
+                                        </a>
+                                        <!-- Salir -->
+                                        <a class="dropdown-item" href="#!">
+                                            <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
+                                            Salir
+                                        </a>
+                                        <!-- Entrar -->
+                                        <a class="dropdown-item" href="registro.html">
+                                            <div class="dropdown-item-icon"><i data-feather="log-in"></i></div>
+                                            Entrar
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- BOTON COMPRAR -->
+                            <a class="btn-blue btn rounded-pill px-4 ml-lg-4"
+                                href="https://shop.startbootstrap.com/sb-ui-kit-pro">Comprar<i
+                                    class="fas fa-arrow-right ml-1"></i></a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- INICIO HEADER -->
+                <!-- <header class="page-header page-header-dark bg-img-cover overlay"
+                    style='background-image: url("https://source.unsplash.com/hrlvr2ZlUNk/1500x700")'>
+                    <div class="page-header-content">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-8 col-lg-10 text-center">
+                                    <h1 class="page-header-title">Find the best businesses in town</h1>
+                                    <p class="page-header-text mb-5">Search for restaurants, contractors, and other
+                                        local businesses in your area to find out which ones are the best!</p>
+                                    <form class="page-header-signup">
+                                        <div class="form-row justify-content-center">
+                                            <div class="col-lg-6 col-md-8">
+                                                <div class="form-group mr-0 mr-lg-2"><label class="sr-only"
+                                                        for="inputSearch">Find local businesses...</label><input
+                                                        class="form-control form-control-solid rounded-pill"
+                                                        id="inputSearch" type="text"
+                                                        placeholder="Find local businesses..." /></div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4"><button
+                                                    class="btn btn-teal btn-block btn-marketing rounded-pill"
+                                                    type="submit">Search</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="svg-border-angled text-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+                            fill="currentColor">
+                            <polygon points="0,100 100,0 100,100"></polygon>
+                        </svg>
+                    </div>
+                </header> -->
+
+                <section class="bg-white pt-5 pb-10">
+                    <!-- SECCION CONFIRMAR PEDIDO -->
+                    <div class="card z-1 mb-5 ">
+                        <div class="card-body text-center py-5">
+                            <h2 class="mb-3">Confirma tu utlimo pedido aqui!</h2>
+                            <a class="btn btn-primary btn-marketing rounded-pill" href="#!">Confirmar pedido
+                                #290127</a>
+                        </div>
+                    </div>
+                    <div class="container">
+
+                        <!-- SECCIÓN BUSCAR -->
+                        <!-- <div class="input-group input-group-lg mb-5">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Pedidos</button>
+                                <div class="dropdown-menu animated--fade-in-up"><a class="dropdown-item"
+                                        href="#!">Despachadas</a><a class="dropdown-item" href="#!">En Preparación</a><a
+                                        class="dropdown-item" href="#!">Historial</a></div>
+                            </div>
+                            <input class="form-control" type="text" aria-label="Text input with dropdown button"
+                                placeholder="Busca tu pedido!" />
+                        </div> -->
+                        <div class="row">
+                            <!-- SECCION IZQUIERDA - DE OPCIONES -->
+                            <div class="col-lg-4 col-xl-3 mb-5">
+                                <div class="card">
+                                    <div class="list-group list-group-flush small">
+                                        <!-- TODOS -->
+                                        <a class="list-group-item list-group-item-action" href="#!"><i
+                                                class="fas fa-clipboard fa-fw mr-2 text-gray-400"></i>Todos
+                                        </a>
+                                        <!-- ENTREGADOS -->
+                                        <a class="list-group-item list-group-item-action" href="#!"><i
+                                                class="fas fa-thumbs-up fa-fw mr-2 text-gray-400"></i>Entregados
+                                        </a>
+                                        <!-- EN PROCESO -->
+                                        <a class="list-group-item list-group-item-action" href="#!"><i
+                                                class="fas fa-archive fa-fw mr-2 text-gray-400"></i>En Proceso
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SECCION DERECHA - DE CASOS -->
+                            <div class="col-lg-8 col-xl-9">
+                                <div class="card mb-5">
+                                    <div class="list-group list-group-flush">
+                                        <!-- CASO 1 -->
+                                        <a class="list-group-item list-group-item-action py-4" href="#!">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mr-4 d-flex">
+                                                    <div
+                                                        class="icon-stack icon-stack bg-green-soft text-green flex-shrink-0 mr-4">
+                                                        <i data-feather="check"></i></div>
+                                                    <div>
+                                                        <h6>Pedido #290225</h6>
+                                                        <p class="card-text">Gracias por tu compra, la entrega se
+                                                            encuentra confirmada</p>
+                                                    </div>
+                                                </div>
+                                                <div class="small text-gray-400 flex-shrink-0 text-right">
+                                                    12/09/2020<br />
+                                                    <div class="badge badge-green-soft badge-pill text-green">Entregada
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <!-- CASO2 -->
+                                        <a class="list-group-item list-group-item-action py-4" href="#!">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mr-4 d-flex">
+                                                    <div
+                                                        class="icon-stack icon-stack bg-red-soft text-red flex-shrink-0 mr-4">
+                                                        <i data-feather="x"></i></div>
+                                                    <div>
+                                                        <h6>Pedido #290234</h6>
+                                                        <p class="card-text">Tu pedido ha sido cancelado</p>
+                                                    </div>
+                                                </div>
+                                                <div class="small text-gray-400 flex-shrink-0 text-right">
+                                                    10/09/2020<br />
+                                                    <div class="badge badge-red-soft badge-pill text-red">Cancelada
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <!-- CASO 3 -->
+                                        <a class="list-group-item list-group-item-action py-4" href="#!">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mr-4 d-flex">
+                                                    <div
+                                                        class="icon-stack icon-stack bg-yellow-soft text-yellow flex-shrink-0 mr-4">
+                                                        <i data-feather="file-text"></i></div>
+                                                    <div>
+                                                        <h6>Pedido #290127</h6>
+                                                        <p class="card-text">Coca cola + Saniwch.</p>
+                                                        Pago en efectivo
+                                                    </div>
+                                                </div>
+                                                <div class="small text-gray-400 flex-shrink-0 text-right">
+                                                    11/09/2020<br />
+                                                    <div class="badge badge-yellow-soft badge-pill text-yellow">
+                                                        Pendiente
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EFECTO REDONDO CON COLOR DE FONDO -->
+                    <!-- <div class="svg-border-rounded text-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none"
+                            fill="currentColor">
+                            <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
+                        </svg>
+                    </div> -->
+                    <!-- EFECT DIGANAL DE COLOR DE FONDO -->
+                    <div class="svg-border-angled text-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+                            fill="currentColor">
+                            <polygon points="0,100 100,0 100,100"></polygon>
+                        </svg>
+                    </div>
+                </section>
+
+
+            </main>
+        </div>
+        <!-- FOOTER -->
+        <div id="layoutDefault_footer">
+            <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+                <div class="container">
+                    <div class="row">
+                        <!-- TITULO DUOC Y REDES SOCIALES -->
+                        <div class="col-lg-3">
+                            <div class="footer-brand">Duoc delivery</div>
+                            <div class="mb-3">Mejorando expectativas</div>
+                            <div class="icon-list-social mb-5">
+                                <a class="icon-list-social-link" href="javascript:void(0);"><i
+                                        class="fab fa-instagram"></i></a><a class="icon-list-social-link"
+                                    href="javascript:void(0);"><i class="fab fa-facebook"></i></a><a
+                                    class="icon-list-social-link" href="javascript:void(0);"><i
+                                        class="fab fa-github"></i></a><a class="icon-list-social-link"
+                                    href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <div class="row">
+                                <!-- COLUMNA 1 -->
+                                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                                    <div class="text-uppercase-expanded text-xs mb-4">Servicios</div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><a href="javascript:void(0);">AVA</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Vivo Duoc</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Duoc UC</a></li>
+
+                                    </ul>
+                                </div>
+                                <!-- COLUMNA 2 -->
+                                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                                    <div class="text-uppercase-expanded text-xs mb-4">Creadores</div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><a href="javascript:void(0);">CITT</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Thomas Miño</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Luciano Molina</a></li>
+
+                                    </ul>
+                                </div>
+                                <!-- Columna 3 -->
+                                <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
+                                    <div class="text-uppercase-expanded text-xs mb-4">Tiendas Asociadas</div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-2"><a href="javascript:void(0);">Bistro</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Mcdonald</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Cars</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Castaño</a></li>
+                                        <li class="mb-2"><a href="javascript:void(0);">Starbucks</a></li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FOOTER FINAL  -->
+                    <hr class="my-5" />
+                    <div class="row align-items-center">
+                        <div class="col-md-6 small">Copyright &copy; Delivery Duoc 2020</div>
+                        <div class="col-md-6 text-md-right small">
+                            <a href="javascript:void(0);">Duoc UC</a>
+                            &middot;
+                            <a href="javascript:void(0);">Terminos &amp; Condiciones</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
+    <!-- POR EL MOMENTO NO INFLUYE EL SCRIPT -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
